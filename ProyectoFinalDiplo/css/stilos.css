@@ -1,0 +1,410 @@
+/*-------HEADER-----------------*/
+
+.contenedor-header{
+    align-items: center;
+}
+
+/*imagen*/
+.icono{
+    width: 8%;
+}
+
+.icono img{
+    width: 100%;
+}
+
+
+
+/*menu*/
+.menu{
+    width: 72%;
+}
+
+.menu ul{
+    list-style: none; 
+}
+
+.menu #item{
+    float: left;
+    
+    
+}   
+
+.menu #item a{
+    text-decoration: none;
+    color: #fbb1a1;
+    font-family: ComicBold;
+    font-size: 20px;
+}
+
+.menu #item a:hover{
+    color: #A54BE3;
+}
+
+.menu #desple{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.menu #desple a{
+    position: relative;
+    right: 30px;
+}
+
+.menu #item:hover #desple{
+    display: block;
+}
+
+
+/* Estilos Boton*/
+.btn-registro{
+    position: relative;
+    bottom: 8px;
+    padding-right: 10px;
+    text-align: right;
+    width: 15%;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: ComicBold;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn-2 {
+    background: #A54BE3;
+    border: none;
+    
+  }
+
+.btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),-4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    background: #fbb1a1;
+
+  }
+
+  .btn-registro a{
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .btn-registro a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*-------------------------------------*/
+
+
+  /*Fuentes*/
+  @font-face{
+      font-family: ComicLight;
+      src: url(../fonts/ComicLight.ttf);
+  }
+
+  @font-face{
+      font-family: ComicBold;
+      src: url(../fonts/ComicBold.ttf);
+  }
+
+  @font-face{
+      font-family: Cursiva;
+      src: url(../fonts/cursiva.ttf);
+  }
+
+
+  /*-------BODY INICIO-----------*/
+  .contenedor-principal-inicio{
+      margin: 5px;
+      padding: 3px;
+  }
+
+.contenedor-principal-inicio hr{
+    background-color: #CCCBCB;    
+    height: 1px;
+}
+
+  .tituloinicio h1, h3{ 
+      margin-top: 30px;
+      font-size: 60px;
+      text-align: center;
+      font-family: Cursiva;
+      color: #7c7c7c;
+  }
+
+  .sliderinicio{
+      width: 80%;
+      margin: 100px auto 30px auto;
+  }
+
+
+  .parrafo-inicio, .imagen-inicio{
+    width: 45%;
+    margin: 3px;
+    align-items: center;
+  }
+
+  .parrafo-inicio p{
+    font-family: ComicLight;
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .imagen-inicio img{
+      width: 110%;
+  }
+/*-------------------------------------*/
+
+
+/*-------------Footer-----------------*/
+.footer{
+    padding: 3px;
+    background-color: #E4D3FD;
+    align-items: center;    
+}
+
+.footer h4{
+    font-family: ComicBold;
+}
+
+.footer p{
+    font-family: ComicLight;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.redes-sociales, .div-contacto{
+    margin-top: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.img-redes img{
+    width: 10%;
+    margin: 30px 50px;
+}
+
+/*-----------------------------*/
+
+
+/*----------Quienes Somos---------*/
+
+.contenedor-principal-inicio{
+    align-items: center;
+    margin-top: 40px;
+}
+
+.informacion-quienesomos, .imagen-quienesomos{
+    width: 45%;
+    margin: 10px;
+    font-family: ComicLight;
+}
+
+.parrafo-quienessomos{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.imagen-quienesomos img{
+    width: 100%;
+}
+
+/*---------Terapia Presencial--------*/
+
+.img-presencial{
+    text-align: center;
+}
+
+.parrafo-presencial{
+    text-align: justify;
+    font-family: ComicLight;
+    font-size: 25px;
+    padding: 1px 10px;
+    margin-top: 30px;
+}
+
+.metodos-pago{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-family: ComicLight;
+}
+
+.calendario{
+    font-size: 20px;
+}
+
+.calendario input{
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 18px 10px;
+}
+
+.img-pago img{
+    width: 6%;
+}
+
+.btn-pagar{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.btn-pagar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-pagar a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*----------------------Recursos-----------------*/
+.parrafo-recursos, .parrafo-alimentacion{
+ text-align: justify;
+ font-family: ComicLight; 
+ font-size: 22px;     
+}
+
+.titulo-alimentacion{
+    font-family: ComicBold;
+    color: #7c7c7c;
+}
+
+.tarjetas{
+    width: 22%;
+    margin: 10px;
+    padding: 8px;
+}
+
+.titulo-tarjeta{
+    text-align: center;
+    font-family: ComicBold;
+    color: #7c7c7c;
+}
+
+.img-tarjeta{
+    text-align: center;
+}
+
+.img-tarjeta img{
+    width: 95%;
+}
+
+.parrafo-tarjeta{
+    margin-top: 10px;
+    font-family: ComicLight;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+/*--------------Login-----------*/
+.div-login{
+    padding: 10px;
+    width: 40%;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-family: ComicLight;
+    background-color: #FCCAB8;
+    box-shadow: 6px 6px 6px #cacaca;
+}
+
+.div-login hr{
+    width: 90%;
+    background-color: #fff;
+}
+
+.div-login a:hover{
+    text-decoration: none;
+}
+
+.btns-login a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btns-login a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.datos{
+    margin: 20px 0 10px 0;
+}
+
+.datos label{
+    font-size: 20px;
+}
+
+.datos input{
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.btn-3 {
+    background: #A54BE3;
+    border: none;
+    
+  }
+
+.btn-3:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),-4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    background: #8900fa;
+
+  }
+
+
+.Recursos-img img{
+    width: 12%;
+}
+
+.mindfulness-Recursos img{
+    width: 45%;
+  
+}
+.mindfulness-Recursos{
+ text-align: center;
+ margin-top: 50px;
+}
+
+.Infomindfulness{
+    width: 45%;
+}
+
+
+.datosadministrador{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto; 
+    background-color: #A54BE3;
+    padding: 20px;
+    box-shadow: 6px 6px 6px gray;
+    border-radius: 12px;
+
+}
+.datosadministrador img{
+width: 20%;
+
+}
+
